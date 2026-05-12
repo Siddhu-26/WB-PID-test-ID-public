@@ -3,52 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SAI Connect — Member Profiles</title>
+<title>SAI Connect — Member Portal</title>
+<meta name="description" content="SAI Connect Member Portal — Sri Sathya Sai Seva Organisation">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    color: #f0f0f0;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: #e0e0f0;
     min-height: 100vh;
-    padding: 3rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
   }
-  h1 {
+  .card {
+    max-width: 480px;
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 1.6rem;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+  }
+  .logo { font-size: 3rem; margin-bottom: 1rem; }
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
     background: linear-gradient(90deg, #a78bfa, #60a5fa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
-  .members {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+  .subtitle {
+    font-size: 0.95rem;
+    color: #9ca3af;
+    margin-bottom: 2rem;
+    line-height: 1.5;
   }
-  a {
-    display: block;
-    background: rgba(255,255,255,0.07);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 0.8rem;
-    padding: 1rem 1.5rem;
-    color: #e0e0ff;
-    text-decoration: none;
-    transition: all 0.2s;
+  .instruction {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
   }
-  a:hover {
-    background: rgba(255,255,255,0.14);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  .instruction .icon { font-size: 2rem; margin-bottom: 0.5rem; }
+  .instruction p {
+    font-size: 0.88rem;
+    color: #c4b5fd;
+    line-height: 1.5;
+  }
+  .footer {
+    font-size: 0.7rem;
+    color: #4b5563;
+    margin-top: 1rem;
   }
 </style>
 </head>
 <body>
-  <h1>SAI Connect — Member Profiles</h1>
-  <div class="members">
-    <a href="ffeaf2b9/">Ananya Sharma</a>
+<div class="card">
+  <div class="logo">🔒</div>
+  <h1>SAI Connect</h1>
+  <p class="subtitle">Sri Sathya Sai Seva Organisation<br>Member Portal</p>
+  <div class="instruction">
+    <div class="icon">📱</div>
+    <p>Scan the <strong>QR code</strong> on your ID card<br>to view your member profile.</p>
   </div>
+  <div class="footer">
+    &copy; Sri Sathya Sai Seva Organisation
+  </div>
+</div>
 </body>
 </html>
