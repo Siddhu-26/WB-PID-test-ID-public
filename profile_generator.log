@@ -1,0 +1,13 @@
+2026-05-20 02:11:48 [INFO] ============================================================
+2026-05-20 02:11:48 [INFO] Profile Generator -- Pages + QR Deployer
+2026-05-20 02:11:48 [INFO] ============================================================
+2026-05-20 02:11:48 [WARNING] No PAGES_BASE_URL set -- QR codes will use relative paths
+2026-05-20 02:11:48 [INFO] Connecting to Google Sheet...
+2026-05-20 02:11:49 [INFO] Connected: 'PID_db_poc'
+2026-05-20 02:11:50 [INFO] Found 2 PROCESSED member(s) to generate profiles for
+2026-05-20 02:11:52 [INFO]   OK: SAI2026A91KX -> /ffeaf2b9/ (Ananya Sharma)
+2026-05-20 02:11:53 [INFO]   dc0f31ca: used original (no crop coords)
+2026-05-20 02:11:53 [INFO]   OK: SAI2026C82PQ -> /dc0f31ca/ (Sneha Reddy)
+2026-05-20 02:11:53 [INFO] ============================================================
+2026-05-20 02:11:53 [INFO] Done -- 2/2 profiles generated in output/pages
+2026-05-20 02:11:53 [INFO] Root index.html: generic landing page (no member listing)
