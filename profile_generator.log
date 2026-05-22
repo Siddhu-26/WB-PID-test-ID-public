@@ -1,0 +1,31 @@
+2026-05-22 05:10:59 [INFO] ============================================================
+2026-05-22 05:10:59 [INFO] Profile Generator -- Pages + QR Deployer
+2026-05-22 05:10:59 [INFO] ============================================================
+2026-05-22 05:10:59 [WARNING] No PAGES_BASE_URL set -- QR codes will use relative paths
+2026-05-22 05:10:59 [INFO] Connecting to Google Sheet...
+2026-05-22 05:11:00 [INFO] Connected: 'PID_db_poc'
+2026-05-22 05:11:01 [INFO] Found 11 PROCESSED member(s) to generate profiles for
+2026-05-22 05:11:03 [INFO]   OK: SAI2026A91KX -> /ffeaf2b9/ (Ananya Sharma)
+2026-05-22 05:11:04 [INFO]   dc0f31ca: used original (no crop coords)
+2026-05-22 05:11:04 [INFO]   OK: SAI2026C82PQ -> /dc0f31ca/ (Sneha Reddy)
+2026-05-22 05:11:05 [INFO]   cc0077d2: used original (no crop coords)
+2026-05-22 05:11:05 [INFO]   OK: SAI2026D19RT -> /cc0077d2/ (Kavya Iyer)
+2026-05-22 05:11:06 [INFO]   cbee5a31: used original (no crop coords)
+2026-05-22 05:11:06 [INFO]   OK: SAI2026E63ZW -> /cbee5a31/ (Pooja Patel)
+2026-05-22 05:11:07 [INFO]   8f3a3579: used original (no crop coords)
+2026-05-22 05:11:07 [INFO]   OK: SAI2026R22DF -> /8f3a3579/ (Amit Mishra)
+2026-05-22 05:11:09 [INFO]   3471e3d5: used original (no crop coords)
+2026-05-22 05:11:09 [INFO]   OK: SAI2026V13PR -> /3471e3d5/ (Aditya Deshmukh)
+2026-05-22 05:11:10 [INFO]   1ece1132: used original (no crop coords)
+2026-05-22 05:11:10 [INFO]   OK: SAI2026W76QS -> /1ece1132/ (Naveen Pillai)
+2026-05-22 05:11:11 [INFO]   aeb804b5: used original (no crop coords)
+2026-05-22 05:11:11 [INFO]   OK: SAI2026Z81XM -> /aeb804b5/ (Harish Bhat)
+2026-05-22 05:11:12 [INFO]   55da2151: used original (no crop coords)
+2026-05-22 05:11:12 [INFO]   OK: SAI2026A33YN -> /55da2151/ (Sanjay Malhotra)
+2026-05-22 05:11:14 [INFO]   536c0fa5: used original (no crop coords)
+2026-05-22 05:11:14 [INFO]   OK: SAI2026C17AB -> /536c0fa5/ (Vikas Jain)
+2026-05-22 05:11:15 [INFO]   07e693ef: used original (no crop coords)
+2026-05-22 05:11:15 [INFO]   OK: SAI2026E48EF -> /07e693ef/ (Tarun Banerjee)
+2026-05-22 05:11:15 [INFO] ============================================================
+2026-05-22 05:11:15 [INFO] Done -- 11/11 profiles generated in output/pages
+2026-05-22 05:11:15 [INFO] Root index.html: generic landing page (no member listing)
