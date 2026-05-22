@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarun Banerjee — SAI Connect Profile</title>
+<meta name="description" content="Member profile for Tarun Banerjee — Sri Sathya Sai Seva Organisation">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: #e0e0f0;
+    min-height: 100vh;
+    padding: 1.5rem;
+  }
+
+  /* --- Container --- */
+  .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* --- Hero Card --- */
+  .hero {
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 1.6rem;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    margin-bottom: 1.2rem;
+  }
+  .hero-inner {
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(167,139,250,0.12), rgba(96,165,250,0.12));
+  }
+  .photo {
+    width: 140px; height: 210px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0 auto 1.2rem;
+    border: 3px solid rgba(255,255,255,0.15);
+    display: block;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+  }
+  .name {
+    font-size: 1.6rem; font-weight: 700;
+    margin-bottom: 0.3rem;
+    background: linear-gradient(90deg, #a78bfa, #60a5fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .sai-id {
+    font-size: 0.82rem; color: #9ca3af;
+    letter-spacing: 0.12em;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+  .badge {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background: rgba(74,222,128,0.12);
+    border: 1px solid rgba(74,222,128,0.25);
+    border-radius: 2rem;
+    font-size: 0.72rem;
+    color: #4ade80;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+  }
+  .badge.expired {
+    background: rgba(248,113,113,0.12);
+    border-color: rgba(248,113,113,0.25);
+    color: #f87171;
+  }
+
+  /* --- Detail Sections --- */
+  .section {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+  }
+  .section-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #818cf8;
+    padding: 1rem 1.5rem 0.6rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .details {
+    padding: 0.2rem 1.5rem 0.8rem;
+  }
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    gap: 1rem;
+  }
+  .detail-row:last-child {
+    border-bottom: none;
+  }
+  .detail-label {
+    font-size: 0.8rem;
+    color: #9ca3af;
+    flex-shrink: 0;
+    font-weight: 500;
+  }
+  .detail-value {
+    font-size: 0.85rem;
+    color: #e0e0f0;
+    text-align: right;
+    word-break: break-word;
+    font-weight: 400;
+  }
+
+  /* --- Footer --- */
+  .footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.68rem;
+    color: #4b5563;
+  }
+  .footer a {
+    color: #6366f1;
+    text-decoration: none;
+  }
+
+  /* --- Animation --- */
+  .section, .hero {
+    animation: fadeUp 0.4s ease-out both;
+  }
+  .section:nth-child(2) { animation-delay: 0.1s; }
+  .section:nth-child(3) { animation-delay: 0.2s; }
+  .section:nth-child(4) { animation-delay: 0.3s; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+<div class="profile-container">
+  <div class="hero">
+    <div class="hero-inner">
+      <img class="photo" src="photo.jpg" alt="Tarun Banerjee" onerror="this.style.display='none'">
+      <div class="name">Tarun Banerjee</div>
+      <div class="sai-id">SAI2026E48EF</div>
+      <div class="badge">✓ Verified Member</div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">👤 Personal Details</div>
+    <div class="details">
+      <div class="detail-row"><span class="detail-label">Date of Birth</span><span class="detail-value">20-03</span></div>
+      <div class="detail-row"><span class="detail-label">Gender</span><span class="detail-value">Male</span></div>
+      <div class="detail-row"><span class="detail-label">Blood Group</span><span class="detail-value">B+</span></div>
+      <div class="detail-row"><span class="detail-label">District</span><span class="detail-value">Hooghly</span></div>
+      <div class="detail-row"><span class="detail-label">Address</span><span class="detail-value">27 Arambagh Rd, WB</span></div>
+      <div class="detail-row"><span class="detail-label">Phone</span><span class="detail-value">••••••5672</span></div>
+      <div class="detail-row"><span class="detail-label">Email</span><span class="detail-value">ta•••••@gmail.com</span></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">🏛️ Organisation</div>
+    <div class="details">
+      <div class="detail-row"><span class="detail-label">Samithi / Bhajan Mandali</span><span class="detail-value">Hooghly</span></div>
+      <div class="detail-row"><span class="detail-label">Office Bearer</span><span class="detail-value">Yes</span></div>
+      <div class="detail-row"><span class="detail-label">Hierarchy</span><span class="detail-value">Samithi</span></div>
+      <div class="detail-row"><span class="detail-label">Designation</span><span class="detail-value">Spiritual Coordinator</span></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">🎓 Education & Skills</div>
+    <div class="details">
+      <div class="detail-row"><span class="detail-label">Qualification</span><span class="detail-value">B.A.</span></div>
+      <div class="detail-row"><span class="detail-label">Postgraduate</span><span class="detail-value">M.A.</span></div>
+      <div class="detail-row"><span class="detail-label">Occupation</span><span class="detail-value">Cultural Coordinator</span></div>
+      <div class="detail-row"><span class="detail-label">Languages</span><span class="detail-value">Bengali, English</span></div>
+      <div class="detail-row"><span class="detail-label">Interested Area</span><span class="detail-value">Bhajan Singing</span></div>
+      <div class="detail-row"><span class="detail-label">Skillset</span><span class="detail-value">Event Organizing</span></div>
+      <div class="detail-row"><span class="detail-label">Other Info</span><span class="detail-value">Leads bhajan programs</span></div>
+    </div>
+  </div>
+  <div class="footer">
+    SAI Connect &bull; Sri Sathya Sai Seva Organisation<br>
+    <small>Profile data synced from organisation records</small>
+  </div>
+</div>
+</body>
+</html>
