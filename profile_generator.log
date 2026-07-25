@@ -1,20 +1,20 @@
-2026-07-24 01:44:35 [INFO] ============================================================
-2026-07-24 01:44:35 [INFO] Profile Generator -- Pages + QR Deployer
-2026-07-24 01:44:35 [INFO] ============================================================
-2026-07-24 01:44:35 [INFO] Connecting to Google Sheet...
-2026-07-24 01:44:36 [INFO] Connected: 'PID_db_poc'
-2026-07-24 01:44:36 [INFO] Found 11 PROCESSED member(s) to generate profiles for
-2026-07-24 01:44:38 [INFO]   OK: SAI2026A91KX -> https://siddhu-26.github.io/WB-PID-test-ID-public/ffeaf2b9/ (Ananya Sharma)
-2026-07-24 01:44:39 [INFO]   OK: SAI2026C82PQ -> https://siddhu-26.github.io/WB-PID-test-ID-public/dc0f31ca/ (Sneha Reddy)
-2026-07-24 01:44:41 [INFO]   OK: SAI2026D19RT -> https://siddhu-26.github.io/WB-PID-test-ID-public/cc0077d2/ (Kavya Iyer)
-2026-07-24 01:44:42 [INFO]   OK: SAI2026E63ZW -> https://siddhu-26.github.io/WB-PID-test-ID-public/cbee5a31/ (Pooja Patel)
-2026-07-24 01:44:44 [INFO]   OK: SAI2026R22DF -> https://siddhu-26.github.io/WB-PID-test-ID-public/8f3a3579/ (Amit Mishra)
-2026-07-24 01:44:46 [INFO]   OK: SAI2026V13PR -> https://siddhu-26.github.io/WB-PID-test-ID-public/3471e3d5/ (Aditya Deshmukh)
-2026-07-24 01:44:47 [INFO]   OK: SAI2026W76QS -> https://siddhu-26.github.io/WB-PID-test-ID-public/1ece1132/ (Naveen Pillai)
-2026-07-24 01:44:48 [INFO]   OK: SAI2026Z81XM -> https://siddhu-26.github.io/WB-PID-test-ID-public/aeb804b5/ (Harish Bhat)
-2026-07-24 01:44:49 [INFO]   OK: SAI2026A33YN -> https://siddhu-26.github.io/WB-PID-test-ID-public/55da2151/ (Sanjay Malhotra)
-2026-07-24 01:44:50 [INFO]   OK: SAI2026C17AB -> https://siddhu-26.github.io/WB-PID-test-ID-public/536c0fa5/ (Vikas Jain)
-2026-07-24 01:44:52 [INFO]   OK: SAI2026E48EF -> https://siddhu-26.github.io/WB-PID-test-ID-public/07e693ef/ (Tarun Banerjee)
-2026-07-24 01:44:52 [INFO] ============================================================
-2026-07-24 01:44:52 [INFO] Done -- 11/11 profiles generated in output/pages
-2026-07-24 01:44:52 [INFO] Root index.html: generic landing page (no member listing)
+2026-07-25 01:44:47 [INFO] ============================================================
+2026-07-25 01:44:47 [INFO] Profile Generator -- Pages + QR Deployer
+2026-07-25 01:44:47 [INFO] ============================================================
+2026-07-25 01:44:47 [INFO] Connecting to Google Sheet...
+2026-07-25 01:44:48 [INFO] Connected: 'PID_db_poc'
+2026-07-25 01:44:49 [INFO] Found 11 PROCESSED member(s) to generate profiles for
+2026-07-25 01:44:51 [INFO]   OK: SAI2026A91KX -> https://siddhu-26.github.io/WB-PID-test-ID-public/ffeaf2b9/ (Ananya Sharma)
+2026-07-25 01:44:52 [INFO]   OK: SAI2026C82PQ -> https://siddhu-26.github.io/WB-PID-test-ID-public/dc0f31ca/ (Sneha Reddy)
+2026-07-25 01:44:54 [INFO]   OK: SAI2026D19RT -> https://siddhu-26.github.io/WB-PID-test-ID-public/cc0077d2/ (Kavya Iyer)
+2026-07-25 01:44:55 [INFO]   OK: SAI2026E63ZW -> https://siddhu-26.github.io/WB-PID-test-ID-public/cbee5a31/ (Pooja Patel)
+2026-07-25 01:44:57 [INFO]   OK: SAI2026R22DF -> https://siddhu-26.github.io/WB-PID-test-ID-public/8f3a3579/ (Amit Mishra)
+2026-07-25 01:44:59 [INFO]   OK: SAI2026V13PR -> https://siddhu-26.github.io/WB-PID-test-ID-public/3471e3d5/ (Aditya Deshmukh)
+2026-07-25 01:45:00 [INFO]   OK: SAI2026W76QS -> https://siddhu-26.github.io/WB-PID-test-ID-public/1ece1132/ (Naveen Pillai)
+2026-07-25 01:45:01 [INFO]   OK: SAI2026Z81XM -> https://siddhu-26.github.io/WB-PID-test-ID-public/aeb804b5/ (Harish Bhat)
+2026-07-25 01:45:02 [INFO]   OK: SAI2026A33YN -> https://siddhu-26.github.io/WB-PID-test-ID-public/55da2151/ (Sanjay Malhotra)
+2026-07-25 01:45:04 [INFO]   OK: SAI2026C17AB -> https://siddhu-26.github.io/WB-PID-test-ID-public/536c0fa5/ (Vikas Jain)
+2026-07-25 01:45:05 [INFO]   OK: SAI2026E48EF -> https://siddhu-26.github.io/WB-PID-test-ID-public/07e693ef/ (Tarun Banerjee)
+2026-07-25 01:45:05 [INFO] ============================================================
+2026-07-25 01:45:05 [INFO] Done -- 11/11 profiles generated in output/pages
+2026-07-25 01:45:05 [INFO] Root index.html: generic landing page (no member listing)
